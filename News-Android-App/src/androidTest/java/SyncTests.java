@@ -14,12 +14,12 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import de.luhmer.owncloudnewsreader.NewsReaderListActivity;
-import de.luhmer.owncloudnewsreader.reader.FeedItemTags;
-import de.luhmer.owncloudnewsreader.reader.HttpJsonRequest;
-import de.luhmer.owncloudnewsreader.reader.owncloud.API;
-import de.luhmer.owncloudnewsreader.reader.owncloud.OwnCloudReaderMethods;
-import de.luhmer.owncloudnewsreader.reader.owncloud.apiv2.APIv2;
+import com.quarterfull.newsAndroid.NewsReaderListActivity;
+import com.quarterfull.newsAndroid.reader.FeedItemTags;
+import com.quarterfull.newsAndroid.reader.HttpJsonRequest;
+import com.quarterfull.newsAndroid.reader.owncloud.API;
+import com.quarterfull.newsAndroid.reader.owncloud.OwnCloudReaderMethods;
+import com.quarterfull.newsAndroid.reader.owncloud.apiv2.APIv2;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest

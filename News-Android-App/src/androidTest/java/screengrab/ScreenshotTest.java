@@ -28,17 +28,17 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import de.luhmer.owncloudnewsreader.NewsReaderDetailFragment;
-import de.luhmer.owncloudnewsreader.NewsReaderListActivity;
-import de.luhmer.owncloudnewsreader.NewsReaderListFragment;
-import de.luhmer.owncloudnewsreader.R;
+import com.quarterfull.newsAndroid.NewsReaderDetailFragment;
+import com.quarterfull.newsAndroid.NewsReaderListActivity;
+import com.quarterfull.newsAndroid.NewsReaderListFragment;
+import com.quarterfull.newsAndroid.R;
 
-import de.luhmer.owncloudnewsreader.SettingsActivity;
-import de.luhmer.owncloudnewsreader.adapter.NewsListRecyclerAdapter;
-import de.luhmer.owncloudnewsreader.adapter.ViewHolder;
-import de.luhmer.owncloudnewsreader.database.DatabaseConnectionOrm;
-import de.luhmer.owncloudnewsreader.model.PodcastItem;
-import de.luhmer.owncloudnewsreader.model.UserInfo;
+import com.quarterfull.newsAndroid.SettingsActivity;
+import com.quarterfull.newsAndroid.adapter.NewsListRecyclerAdapter;
+import com.quarterfull.newsAndroid.adapter.ViewHolder;
+import com.quarterfull.newsAndroid.database.DatabaseConnectionOrm;
+import com.quarterfull.newsAndroid.model.PodcastItem;
+import com.quarterfull.newsAndroid.model.UserInfo;
 import tools.fastlane.screengrab.Screengrab;
 import tools.fastlane.screengrab.locale.LocaleTestRule;
 

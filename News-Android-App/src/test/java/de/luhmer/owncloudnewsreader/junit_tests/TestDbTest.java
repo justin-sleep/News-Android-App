@@ -1,4 +1,4 @@
-package de.luhmer.owncloudnewsreader.junit_tests;
+package com.quarterfull.newsAndroid.junit_tests;
 
 import android.database.Cursor;
 
@@ -12,12 +12,12 @@ import org.robolectric.annotation.Config;
 
 import java.util.List;
 
-import de.luhmer.owncloudnewsreader.BuildConfig;
-import de.luhmer.owncloudnewsreader.NewsReaderListActivity;
-import de.luhmer.owncloudnewsreader.database.DatabaseConnectionOrm;
-import de.luhmer.owncloudnewsreader.database.DatabaseHelperOrm;
-import de.luhmer.owncloudnewsreader.database.model.DaoSession;
-import de.luhmer.owncloudnewsreader.database.model.Feed;
+import com.quarterfull.newsAndroid.BuildConfig;
+import com.quarterfull.newsAndroid.NewsReaderListActivity;
+import com.quarterfull.newsAndroid.database.DatabaseConnectionOrm;
+import com.quarterfull.newsAndroid.database.DatabaseHelperOrm;
+import com.quarterfull.newsAndroid.database.model.DaoSession;
+import com.quarterfull.newsAndroid.database.model.Feed;
 
 import static org.junit.Assert.*;
 

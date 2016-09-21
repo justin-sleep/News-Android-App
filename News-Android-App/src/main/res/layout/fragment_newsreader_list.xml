@@ -64,7 +64,7 @@
 
     </RelativeLayout>
 
-    <de.luhmer.owncloudnewsreader.ListView.BlockingExpandableListView
+    <com.quarterfull.newsAndroid.ListView.BlockingExpandableListView
         android:id="@+id/expandableListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

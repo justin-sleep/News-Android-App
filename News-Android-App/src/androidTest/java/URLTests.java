@@ -14,10 +14,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import de.luhmer.owncloudnewsreader.NewsReaderListActivity;
-import de.luhmer.owncloudnewsreader.reader.FeedItemTags;
-import de.luhmer.owncloudnewsreader.reader.HttpJsonRequest;
-import de.luhmer.owncloudnewsreader.reader.owncloud.API;
+import com.quarterfull.newsAndroid.NewsReaderListActivity;
+import com.quarterfull.newsAndroid.reader.FeedItemTags;
+import com.quarterfull.newsAndroid.reader.HttpJsonRequest;
+import com.quarterfull.newsAndroid.reader.owncloud.API;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest

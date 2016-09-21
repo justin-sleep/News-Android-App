@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <de.luhmer.owncloudnewsreader.helper.AutoResizeTextView
+    <com.quarterfull.newsAndroid.helper.AutoResizeTextView
         android:id="@+id/tv_androidAppVersion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
         android:layout_gravity="center_vertical|center_horizontal"
         android:indeterminate="true" />
 
-    <de.luhmer.owncloudnewsreader.view.ChangeLogFileListView
+    <com.quarterfull.newsAndroid.view.ChangeLogFileListView
         android:id="@+id/changelog_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

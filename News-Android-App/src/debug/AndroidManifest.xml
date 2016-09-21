@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="de.luhmer.owncloudnewsreader"
+    package="com.quarterfull.newsAndroid"
     android:installLocation="auto">
 
     <!-- Debug for Screengrab -->
@@ -133,7 +133,7 @@
 
         <provider
             android:name=".providers.OwnCloudSyncProvider"
-            android:authorities="de.luhmer.owncloudnewsreader"
+            android:authorities="com.quarterfull.newsAndroid"
             android:label="@string/auto_sync_string"
             android:syncable="true" >
         </provider>
@@ -183,7 +183,7 @@
 
 
         <service
-            android:name="de.luhmer.owncloudnewsreader.chrometabs.KeepAliveService"
+            android:name="com.quarterfull.newsAndroid.chrometabs.KeepAliveService"
             android:exported="true"
             android:process=":remote" />
 

@@ -14,12 +14,12 @@ import org.junit.Before;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import de.luhmer.owncloudnewsreader.Constants;
-import de.luhmer.owncloudnewsreader.NewsReaderDetailFragment;
-import de.luhmer.owncloudnewsreader.NewsReaderListActivity;
-import de.luhmer.owncloudnewsreader.R;
-import de.luhmer.owncloudnewsreader.adapter.NewsListRecyclerAdapter;
-import de.luhmer.owncloudnewsreader.adapter.ViewHolder;
+import com.quarterfull.newsAndroid.Constants;
+import com.quarterfull.newsAndroid.NewsReaderDetailFragment;
+import com.quarterfull.newsAndroid.NewsReaderListActivity;
+import com.quarterfull.newsAndroid.R;
+import com.quarterfull.newsAndroid.adapter.NewsListRecyclerAdapter;
+import com.quarterfull.newsAndroid.adapter.ViewHolder;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;

@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        tools:context="de.luhmer.owncloudnewsreader.NewFeedActivity"
+        tools:context="com.quarterfull.newsAndroid.NewFeedActivity"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <!-- Login progress -->
